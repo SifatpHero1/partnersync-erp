@@ -20,7 +20,4 @@ app.get('/api/health', (req, res) => {
   res.json({ message: 'PartnerSync ERP Backend is running!', status: 'OK' });
 });
 
-app.listen(PORT, () => {
-  console.log(`🚀 Server running on http://localhost:${PORT}`);
-  console.log(`✅ Mock Database Mode Active`);
-});
+export default app;

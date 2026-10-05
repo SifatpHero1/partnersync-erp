@@ -3,8 +3,8 @@ import * as fs from 'fs';
 import * as path from 'path';
 
 // backend/data.json ফাইলের পাথ (src/controllers থেকে ২ লেভেল উপরে)
-const dataFilePath = path.join(process.cwd(), 'data.json');
-
+const isProduction = process.env.NODE_ENV === 'production';
+const dataFilePath = isProduction ? path.join('/tmp', 'data.json') : path.join(process.cwd(), 'data.json');
 // ডেটা পড়ার ফাংশন
 const readData = () => {
   try {
