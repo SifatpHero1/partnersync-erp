@@ -1,0 +1,90 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Dell Laptop XPS 15",
+      "sku": "LAP-001",
+      "price": 1200,
+      "assignedPartners": [
+        2
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Test Product",
+      "sku": "TEST-001",
+      "price": 100,
+      "assignedPartners": [
+        2
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Gaming Monitor",
+      "sku": "MON-001",
+      "price": 150,
+      "assignedPartners": [
+        2
+      ]
+    },
+    {
+      "id": 4,
+      "name": "hp elitebook",
+      "sku": "LAP-001",
+      "price": 300,
+      "assignedPartners": [
+        2
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "partnerId": 2,
+      "product_sku": "LAP-001",
+      "quantity": 1,
+      "status": "PENDING",
+      "createdAt": "2026-10-04T13:08:38.713Z"
+    },
+    {
+      "id": 2,
+      "partnerId": 2,
+      "product_sku": "TEST-001",
+      "quantity": 1,
+      "status": "PENDING",
+      "createdAt": "2026-10-04T13:08:42.772Z"
+    },
+    {
+      "id": 3,
+      "partnerId": 2,
+      "product_sku": "MON-001",
+      "quantity": 1,
+      "status": "PENDING",
+      "createdAt": "2026-10-04T13:08:46.261Z"
+    },
+    {
+      "id": 4,
+      "partnerId": 2,
+      "product_sku": "LAP-001",
+      "quantity": 1,
+      "status": "PENDING",
+      "createdAt": "2026-10-04T13:10:35.564Z"
+    },
+    {
+      "id": 5,
+      "partnerId": 2,
+      "product_sku": "LAP-001",
+      "quantity": 1,
+      "status": "PENDING",
+      "createdAt": "2026-10-04T13:23:00.048Z"
+    },
+    {
+      "id": 6,
+      "partnerId": 2,
+      "product_sku": "LAP-001",
+      "quantity": 1,
+      "status": "PENDING",
+      "createdAt": "2026-10-04T13:37:23.554Z"
+    }
+  ]
+}
